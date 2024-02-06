@@ -1,11 +1,11 @@
 import { render } from '@testing-library/react';
 import { test, describe, expect } from 'vitest';
 import React from 'react';
-import Splash from './splash';
+import Links from './links'
 
-describe('components/splash', () => {
+describe('components/icon0link', () => {
   test('will render correctly',() => {
-    const {asFragment} = render(<Splash />)
+    const {asFragment} = render(<Links />)
 
     expect(asFragment()).toMatchSnapshot();
   })

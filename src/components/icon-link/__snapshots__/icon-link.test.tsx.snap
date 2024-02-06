@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`components/icon0link > will render correctly 1`] = `
+<DocumentFragment>
+  <a
+    class="bg-black block duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-xl p-1.5 rounded shadow transition"
+    href="http://example.com/"
+    target="_blank"
+  />
+</DocumentFragment>
+`;
