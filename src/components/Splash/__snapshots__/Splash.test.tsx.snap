@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`components/Splash > will render correctly 1`] = `
+<DocumentFragment>
+  <figure
+    aria-description="Background image for web page"
+    aria-hidden="true"
+    assets=""
+    class="absolute bg-cover bg-top contrast-[1.1] inset-px z-0"
+    dsc_0591_4k.jpg=""
+    src=""
+    style="background-image: url("
+  />
+</DocumentFragment>
+`;
