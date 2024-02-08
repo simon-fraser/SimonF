@@ -1,11 +1,15 @@
-import Splash from './components/splash'
+import Hero from './components/hero'
 import Links from './components/links'
+import Peek from './components/peek'
+import Splash from './components/splash'
 
 function App() {
   return (
     <>
-      <Splash />
+      <Hero />
       <Links />
+      <Peek />
+      <Splash />
     </>
   )
 }

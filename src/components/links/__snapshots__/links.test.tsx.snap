@@ -1,14 +1,15 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`components/icon0link > will render correctly 1`] = `
+exports[`components/links > will render correctly 1`] = `
 <DocumentFragment>
-  <aside
-    class="absolute flex-col flex gap-2 h-screen justify-center left-2 z-10"
+  <nav
+    class="absolute flex-col flex gap-2 h-screen justify-center left-2 z-20"
   >
     <a
-      class="bg-black block duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-xl p-1.5 rounded shadow transition"
+      class="bg-black block duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-xl hover:scale-105 p-1.5 rounded shadow transition"
       href="https://www.linkedin.com/in/frasersimon/"
       target="_blank"
+      title="Find me on LinkedIn"
     >
       <svg
         fill="none"
@@ -38,9 +39,10 @@ exports[`components/icon0link > will render correctly 1`] = `
       </svg>
     </a>
     <a
-      class="bg-black block duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-xl p-1.5 rounded shadow transition"
+      class="bg-black block duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-xl hover:scale-105 p-1.5 rounded shadow transition"
       href="https://github.com/simon-fraser"
       target="_blank"
+      title="Here is my GitHub account"
     >
       <svg
         fill="none"
@@ -58,6 +60,6 @@ exports[`components/icon0link > will render correctly 1`] = `
         />
       </svg>
     </a>
-  </aside>
+  </nav>
 </DocumentFragment>
 `;

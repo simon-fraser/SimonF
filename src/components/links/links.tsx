@@ -1,11 +1,10 @@
 import { GitHub, Linkedin } from 'react-feather';
-
-import IconLink from "../icon-link"
-import clx from '../../utils/clx';
+import clx from '@/utils/clx';
+import IconLink from "@/components/icon-link"
 
 function Links() {
   return (
-    <aside className={clx(
+    <nav className={clx(
       'absolute',
       'flex-col',
       'flex',
@@ -13,18 +12,18 @@ function Links() {
       'h-screen',
       'justify-center',
       'left-2',
-      'z-10',
+      'z-20',
     )}>
       
-      <IconLink href="https://www.linkedin.com/in/frasersimon/">
+      <IconLink href="https://www.linkedin.com/in/frasersimon/" title="Find me on LinkedIn">
         <Linkedin color='white' />
       </IconLink>
 
-      <IconLink href="https://github.com/simon-fraser">
+      <IconLink href="https://github.com/simon-fraser" title="Here is my GitHub account">
         <GitHub color='white' />
       </IconLink>
 
-    </aside>
+    </nav>
   )
 }
 
