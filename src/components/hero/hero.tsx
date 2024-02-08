@@ -12,18 +12,19 @@ function Hero() {
     'w-screen',
     'z-10'
   )}><div className={clx(
-    'text-center',
+    'drop-shadow-md',
     'flex-col',
     'flex',
     'h-full',
     'items-center',
     'justify-center',
     'prose',
-    'text-white',
-    'drop-shadow-md'
+    'px-5',
+    'text-center',
+    'text-white'
   )}>
     <h1 className="text-white text-6xl mb-0">Hi i’m Simon Fraser</h1>
-    <p>A software engineering manager, developer and enterprise <span className="underline" title="and TypeScript">JavaScript</span> application specalist.</p>
+    <p className="text-lg">A software engineering manager, developer and enterprise <span className="underline" title="and TypeScript">JavaScript</span> application specalist.</p>
   </div></article>)
 }
 export default Hero

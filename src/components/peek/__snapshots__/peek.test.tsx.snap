@@ -3,7 +3,7 @@
 exports[`components/peek > will render correctly 1`] = `
 <DocumentFragment>
   <aside
-    class="absolute bottom-2 right-2 z-20 opacity-50 transition hover:scale-150 hover:opacity-100"
+    class="absolute bottom-4 hover:opacity-100 hover:scale-150 opacity-50 right-4 transition z-20"
   >
     <a
       href="https://github.com/simon-fraser/SimonF"

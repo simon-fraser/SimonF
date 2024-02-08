@@ -6,14 +6,16 @@ exports[`components/hero > will render correctly 1`] = `
     class="absolute bg-black bg-opacity-30 flex h-screen inset justify-center w-screen z-10"
   >
     <div
-      class="text-center flex-col flex h-full items-center justify-center prose text-white drop-shadow-md"
+      class="drop-shadow-md flex-col flex h-full items-center justify-center prose px-5 text-center text-white"
     >
       <h1
         class="text-white text-6xl mb-0"
       >
         Hi i’m Simon Fraser
       </h1>
-      <p>
+      <p
+        class="text-lg"
+      >
         A software engineering manager, developer and enterprise 
         <span
           class="underline"

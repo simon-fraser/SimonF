@@ -7,19 +7,17 @@ interface Props {
   title?: string;
 }
 
-function IconLink({children, className, href ,title}:Props) {
+function IconLink({children, className, href, title}:Props) {
   return (
     <a href={href} target="_blank" title={title} className={clx(
-      'bg-black', 
+      'bg-emerald-700',
       'block', 
+      'drop-shadow-md hover:drop-shadow-xl',
       'duration-200',
       'hover:-translate-y-0.5',
-      'hover:bg-gray-800', 
-      'hover:shadow-xl',
-      'hover:scale-105',
+      'hover:scale-110',
       'p-1.5', 
       'rounded', 
-      'shadow',
       'transition', 
       className
     )}>

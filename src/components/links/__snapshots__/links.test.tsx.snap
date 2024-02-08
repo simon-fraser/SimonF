@@ -3,10 +3,10 @@
 exports[`components/links > will render correctly 1`] = `
 <DocumentFragment>
   <nav
-    class="absolute flex-col flex gap-2 h-screen justify-center left-2 z-20"
+    class="relative py-4 lg:absolute lg:flex-col flex gap-2 lg:h-screen justify-center left-3 z-20"
   >
     <a
-      class="bg-black block duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-xl hover:scale-105 p-1.5 rounded shadow transition"
+      class="bg-emerald-700 block drop-shadow-md hover:drop-shadow-xl duration-200 hover:-translate-y-0.5 hover:scale-110 p-1.5 rounded transition"
       href="https://www.linkedin.com/in/frasersimon/"
       target="_blank"
       title="Find me on LinkedIn"
@@ -39,7 +39,7 @@ exports[`components/links > will render correctly 1`] = `
       </svg>
     </a>
     <a
-      class="bg-black block duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-xl hover:scale-105 p-1.5 rounded shadow transition"
+      class="bg-emerald-700 block drop-shadow-md hover:drop-shadow-xl duration-200 hover:-translate-y-0.5 hover:scale-110 p-1.5 rounded transition"
       href="https://github.com/simon-fraser"
       target="_blank"
       title="Here is my GitHub account"

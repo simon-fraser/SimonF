@@ -5,13 +5,15 @@ import IconLink from "@/components/icon-link"
 function Links() {
   return (
     <nav className={clx(
-      'absolute',
-      'flex-col',
+      'relative',
+      'py-4',
+      'lg:absolute',
+      'lg:flex-col',
       'flex',
       'gap-2',
-      'h-screen',
+      'lg:h-screen',
       'justify-center',
-      'left-2',
+      'left-3',
       'z-20',
     )}>
       
