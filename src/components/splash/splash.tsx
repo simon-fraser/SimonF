@@ -1,4 +1,4 @@
-import bg from '../../assets/DSC_0591_4k.jpg'
+import bg from '@/assets/DSC_0591_4k.webp'
 
 
 function Splash() {

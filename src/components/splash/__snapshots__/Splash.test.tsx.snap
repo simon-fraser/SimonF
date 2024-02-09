@@ -7,7 +7,7 @@ exports[`components/splash > will render correctly 1`] = `
     aria-hidden="true"
     assets=""
     class="absolute bg-cover bg-top contrast-[1.1] inset-px z-0"
-    dsc_0591_4k.jpg=""
+    dsc_0591_4k.webp=""
     src=""
     style="background-image: url("
   />
